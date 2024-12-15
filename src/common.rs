@@ -909,7 +909,7 @@ pub fn get_api_server(api: String, custom: String) -> String {
             return format!("http://{}", s);
         }
     }
-    "http://ywj927.3322.org".to_owned()
+    "http://ywj927.3322.org:21114".to_owned()
 }
 
 pub fn get_audit_server(api: String, custom: String, typ: String) -> String {
